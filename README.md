@@ -10,8 +10,8 @@ Installed plugins are :
 - vim-snippets
 - vimtex
 
-To install on your computer : 
-git clone git@github.com:engelba/vim-config.git ~/.vim
+To install on your computer :  
+`git clone git@github.com:engelba/vim-config.git ~/.vim`
 
 To update :
 `source update.sh`
