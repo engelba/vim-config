@@ -1,0 +1,54 @@
+# Snippets personalisés pour Vim
+
+priority 1
+
+snippet setup "Met en place un environnement complet pour commencer à écrire un article scientifique en LaTeX" b
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{hmargin=2.5cm,vmargin=1.5cm}
+
+\begin{document}
+
+\title{$1}
+\author{Baptiste ENGEL}
+\date{$2}
+
+\maketitle
+
+\tableofcontents
+
+$3
+
+\end{document}
+endsnippet
+
+snippet par "Paragraphe"
+\paragraph{${1:paragraph name}} $2
+endsnippet
+
+# Snippet spécifiques au mathématiques
+
+snippet mbf "Gras pour les sections de math"
+\mathbf{$1}
+endsnippet
+
+snippet in "Symbole d'appartenance"
+\in $1
+endsnippet
+
+snippet R "Ensemble des réels"
+\mathbb{R} $1
+endsnippet
+
+snippet ov "Overline un élément"
+\overline{$1} $2
+endsnippet
+
+snippet und "Souligne un élément"
+\underline{$1} $2
+endsnippet
