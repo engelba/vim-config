@@ -14,7 +14,7 @@ To install on your computer :
 git clone git@github.com:engelba/vim-config.git ~/.vim
 
 To update :
->> source update.sh
+`source update.sh`
 
 
-And*voilà* !
+And *voilà* !
